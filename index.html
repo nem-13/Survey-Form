@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<title>Survey Form</title>
+</head>
+<body>
+	<div class="container">	
+		<h1 id="title">COVID-19 Survey Form</h1>
+			<p id="description">We will make sure that your information is protected</p>
+
+		<form id="survey-form">
+
+				<label id="name">Name</label><br>
+				<input type="text" id="name-label" placeholder="Enter your name"><br>
+			
+
+				<label id="email">Email</label><br>
+				<input type="text" id="email-label" placeholder="Enter your email"><br>
+
+				<label id="number">Age</label><br>
+				<input type="text" id="number-label" placeholder="Age"><br>
+
+				<label id="contact">Contact Number</label><br>
+				<input type="text" id="contact-number" placeholder="CP #"><br>
+
+		<p>Which Municipality you came from?</p>
+		<select id="dropdown" name="municipalities">
+			<option value="baguio">Baguio City</option>
+			<option value="trinidad">La Trinidad</option>
+			<option value="itogon">Itogon</option>
+			<option value="sablan">Sablan</option>
+			<option value="tuba">Tuba</option>
+			<option value="tublay">Tublay</option>
+		</select>
+
+		<p>Approximately, how many people have you come in contact within past 15 days?</p><br>
+			<input type="radio" id="num1" name="total" value="5">
+			<label class="numbers">1-5</label>
+
+			<input type="radio" id="num2" name="total" value="10">
+			<label class="numbers">5-10</label>
+
+			<input type="radio" id="num3" name="total" value="20">
+			<label class="numbers">10-20</label>
+
+			<input type="radio" id="num4" name="total" value="50">
+			<label class="numbers">20-50</label>
+
+			<input type="radio" id="num5" name="total" value="moreThan">
+			<label class="numbers"> More than 50</label>
+		
+
+		<p>Do you suffer from any of the below diseases?</p>
+			<input type="checkbox" name="disease1" value="disease">
+			<label class="check">Cardiovascular disease</label>
+		
+			<input type="checkbox" name="disease2" value="disease">
+			<label class="check">Diabetes</label>
+		
+			<input type="checkbox" name="disease3" value="disease">
+			<label class="check">Asthma</label>
+		
+			<input type="checkbox" name="disease4" value="disease">
+			<label class="check">Bronchitis</label>
+		
+			<input type="checkbox" name="disease5" value="disease">
+			<label class="check">Cancer</label>
+		
+			<input type="checkbox" name="disease6" value="disease">
+			<label class="check">Other</label>
+		
+		<p>Do you have a travel history to any of these countries?</p>
+			<input type="checkbox" name="country1" value="countries">
+			<label class="country">China</label>
+
+		
+			<input type="checkbox" name="country2" value="countries">
+			<label class="country">Italy</label>
+
+		
+			<input type="checkbox" name="country3" value="countries">
+			<label class="country">Spain</label>
+
+		
+			<input type="checkbox" name="country4" value="countries">
+			<label class="country">France</label>
+
+		
+			<input type="checkbox" name="country5" value="countries">
+			<label class="country">US</label>
+
+		
+			<input type="checkbox" name="country6" value="countries">
+			<label class="country">Saudi Arabia</label>
+
+		
+			<input type="checkbox" name="country7" value="countries">
+			<label class="country">UK</label>
+
+		
+			<input type="checkbox" name="country8" value="countries">
+			<label class="country">Other</label>
+
+		<p>Have you already shared your medical history with government authorities?</p>
+			<input type="radio" value="yes">
+			<label class="answer">Yes</label>
+
+			<input type="radio" value="no">
+			<label class="answer">No</label>
+
+		<p>Do you experience any other difficulties?</p>
+			<textarea id="difficulties" name="difficulties" placeholder="write something..."></textarea>
+		<br>
+
+		<button id="submit">Submit</button>
+
+	</form>
+		</div>
+	</div>
+</body>
+</html>

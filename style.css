@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	height: 100%;
+	background-image: url("images/COVID.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+}
+#title{
+	color: white;
+	font-size: 35px;
+	font-style: sans-serif;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#description{
+	font-family: 'Courgette', cursive;
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+}
+#survey-form{
+	background-color: #131138;
+	padding: 25px;
+	font-family: 'Poppins', sans-serif;
+	margin: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+@media screen and (max-width:600px;) {
+  .container{
+    width: 100%; 
+  }
+
+}
+
+#name, #email, #number, #contact, p{
+	color: white;
+	font-size: 25px;		
+	text-align: left;
+	margin-left: 12px;
+}
+#name-label, #email-label, #number-label, #contact-number{
+	width: 90%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	margin-left: 2%;
+	margin-right: 3%;
+	transition: .3s;
+}
+#dropdown{
+	width: 94.5%;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	margin-left: 2%;
+	margin-right: 3%;
+	transition: .3s;
+}
+.numbers, .check, .country, .answer{
+	display: block;
+	/*margin-left: 24px;*/
+  	position: relative;
+  	padding-left: 35px;
+  	/*margin-bottom: 12px;*/
+  	cursor: pointer;
+  	font-size: 22px;
+  	color: white;
+}	
+#difficulties{
+	min-height: 150px;
+	min-width: 90%;
+	margin-left: 24px;
+	background-color: #CBEAEA;
+}
+#submit{
+	background-color: #0a046b;
+	color: white;
+	margin-left: 24px;
+	min-width: 90%;
+	height: 50px;
+}
+#submit:hover{
+	background-color:#3484ed;
+}
